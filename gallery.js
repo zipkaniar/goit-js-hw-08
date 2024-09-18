@@ -114,5 +114,3 @@ function onGalleryClick(event) {
     }
   }
 }
-console.log(galleryItems); // Dinamik olarak oluşturulan HTML içerikleri doğru mu?
-console.log(galleryContainer); // Doğru eleman seçildi mi?
