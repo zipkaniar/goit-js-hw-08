@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Galeri öğeleri arasındaki boşluk */
+    list-style: none; /* Sırasız listenin varsayılan noktalarını kaldırma */
+    padding: 0;
+  }
+  .gallery-item {
+    flex-basis: calc(33.333% - 10px); /* Her galeri öğesi üçlü bir sütun düzeninde yerleşecek */
+  }
+  .gallery-image {
+    width: 100%; /* Resimlerin genişliği konteynerin tamamını kaplar */
+    height: 100%; /* Resimlerin oranını korur */
+    display: block; /* Resimlerin yan yana düzgün şekilde yerleşmesini sağlar */
+    transition: all ease-in 0.2s;
+  }  
+
+  .gallery-image:hover {
+    scale: 1.05;
+  }
